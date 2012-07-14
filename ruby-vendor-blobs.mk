@@ -14,12 +14,13 @@
 
 # Required to build
 PRODUCT_COPY_FILES += \
-    vendor/htc/ruby/proprietary/libril.so:obj/lib/libril.so \
     vendor/htc/ruby/proprietary/libaudio.so:obj/lib/libaudio.so \
     vendor/htc/ruby/proprietary/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
     vendor/htc/ruby/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/ruby/proprietary/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/ruby/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so
+
+#    vendor/htc/ruby/proprietary/libril.so:obj/lib/libril.so \
 
 # binary files
 PRODUCT_COPY_FILES += \
@@ -32,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/ipd:system/bin/ipd \
     vendor/htc/ruby/proprietary/iw:system/bin/iw \
     vendor/htc/ruby/proprietary/initial_regdom.sh:system/bin/initial_regdom.sh \
-    vendor/htc/ruby/proprietary/load-modem.sh:system/bin/load-modem.sh \
     vendor/htc/ruby/proprietary/logcat2:system/bin/logcat2 \
     vendor/htc/ruby/proprietary/lsc_camera:system/bin/lsc_camera \
     vendor/htc/ruby/proprietary/mpdecision:system/bin/mpdecision \
@@ -59,6 +59,7 @@ PRODUCT_COPY_FILES += \
 #    vendor/htc/ruby/proprietary/ks:system/bin/ks \
 #    vendor/htc/ruby/proprietary/ks:root/system/bin/ks \
 #    vendor/htc/ruby/proprietary/rild:system/bin/rild \
+#    vendor/htc/ruby/proprietary/load-modem.sh:system/bin/load-modem.sh \
 
 # Modem
 #PRODUCT_COPY_FILES += \
@@ -226,7 +227,6 @@ PRODUCT_COPY_FILES += \
 
 # ril
 PRODUCT_COPY_FILES += \
-    vendor/htc/ruby/proprietary/libril.so:system/lib/libril.so \
     vendor/htc/ruby/proprietary/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/htc/ruby/proprietary/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/htc/ruby/proprietary/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
@@ -244,6 +244,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/htc/ruby/proprietary/libqmi.so:system/lib/libqmi.so \
     vendor/htc/ruby/proprietary/libqmiservices.so:system/lib/libqmiservices.so
+
+#    vendor/htc/ruby/proprietary/libril.so:system/lib/libril.so \
 
 # temp
 PRODUCT_COPY_FILES += \
