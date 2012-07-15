@@ -14,6 +14,7 @@
 
 # Required to build
 PRODUCT_COPY_FILES += \
+    vendor/htc/ruby/proprietary/libril.so:obj/lib/libril.so \
     vendor/htc/ruby/proprietary/libaudio.so:obj/lib/libaudio.so \
     vendor/htc/ruby/proprietary/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
     vendor/htc/ruby/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
@@ -227,6 +228,7 @@ PRODUCT_COPY_FILES += \
 
 # ril
 PRODUCT_COPY_FILES += \
+    vendor/htc/ruby/proprietary/libril.so:system/lib/libril.so \
     vendor/htc/ruby/proprietary/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/htc/ruby/proprietary/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/htc/ruby/proprietary/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
