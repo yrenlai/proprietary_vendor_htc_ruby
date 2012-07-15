@@ -99,7 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/htc/ruby/proprietary/libmmipl.so:system/lib/libmmipl.so \
     vendor/htc/ruby/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/htc/ruby/propreitary/camera.deafult.so:system/lib/modules/camera.default.so \
+    vendor/htc/ruby/proprietary/camera.default.so:system/lib/modules/camera.default.so \
     vendor/htc/ruby/proprietary/awb_camera:system/bin/awb_camera
 
 
