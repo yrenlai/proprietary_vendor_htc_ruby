@@ -37,11 +37,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/logcat2:system/bin/logcat2 \
     vendor/htc/ruby/proprietary/lsc_camera:system/bin/lsc_camera \
     vendor/htc/ruby/proprietary/mpdecision:system/bin/mpdecision \
-    vendor/htc/ruby/proprietary/netmgrd:system/bin/netmgrd \
-    vendor/htc/ruby/proprietary/netsharing:system/bin/netsharing \
     vendor/htc/ruby/proprietary/qcks:system/bin/qcks \
     vendor/htc/ruby/proprietary/qcks:root/system/bin/qcks \
     vendor/htc/ruby/proprietary/qmuxd:system/bin/qmuxd \
+    vendor/htc/ruby/proprietary/qemud:system/bin/qemud \
+    vendor/htc/ruby/proprietary/qemud-props:system/bin/qemu-props \
     vendor/htc/ruby/proprietary/ramdump-9K.sh:system/bin/ramdump-9K.sh \
     vendor/htc/ruby/proprietary/ramdump2sd-9K.sh:system/bin/ramdump2sd-9K.sh \
     vendor/htc/ruby/proprietary/rmt_storage:system/bin/rmt_storage \
@@ -63,8 +63,8 @@ PRODUCT_COPY_FILES += \
 #    vendor/htc/ruby/proprietary/load-modem.sh:system/bin/load-modem.sh \
 
 # Modem
-#PRODUCT_COPY_FILES += \
-#    vendor/htc/ruby/proprietary/wireless_modem:system/xbin/wireless_modem \
+PRODUCT_COPY_FILES += \
+    vendor/htc/ruby/proprietary/wireless_modem:system/xbin/wireless_modem \
 
 # firmware
 PRODUCT_COPY_FILES += \
@@ -245,9 +245,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/libidl.so:system/lib/libidl.so \
     vendor/htc/ruby/proprietary/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/htc/ruby/proprietary/libqmi.so:system/lib/libqmi.so \
-    vendor/htc/ruby/proprietary/libqmiservices.so:system/lib/libqmiservices.so
-
-#    vendor/htc/ruby/proprietary/libril.so:system/lib/libril.so \
+    vendor/htc/ruby/proprietary/libqmiservices.so:system/lib/libqmiservices.so \
+    vendor/htc/ruby/proprietary/rild:system/bin/rild \
+    vendor/htc/ruby/proprietary/libdsprofile.so:system/lib/libdsprofile.so \
+    vendor/htc/ruby/proprietary/libdss.so:system/lib/libdss.so \
+    vendor/htc/ruby/proprietary/libdssock.so:system/lib/libdssock.so \
+    vendor/htc/ruby/proprietary/libril_status.so:system/lib/libril_status.so \
+    vendor/htc/ruby/proprietary/libreference_ril.so:system/lib/libreference_ril.so \
 
 # temp
 PRODUCT_COPY_FILES += \
@@ -263,9 +267,7 @@ PRODUCT_COPY_FILES += \
 #    vendor/htc/ruby/proprietary/libgemini.so:system/lib/libgemini.so \
 #    vendor/htc/ruby/proprietary/libauth.so:system/lib/libauth.so \
 #    vendor/htc/ruby/proprietary/libcamera.so:system/lib/libcamera.so \
-#    vendor/htc/ruby/proprietary/libdsprofile.so:system/lib/libdsprofile.so \
-#    vendor/htc/ruby/proprietary/libdss.so:system/lib/libdss.so \
-#    vendor/htc/ruby/proprietary/libdssock.so:system/lib/libdssock.so \
+
 #    vendor/htc/ruby/proprietary/libgsdi_exp.so:system/lib/libgsdi_exp.so \
 #    vendor/htc/ruby/proprietary/libgstk_exp.so:system/lib/libgstk_exp.so \
 #    vendor/htc/ruby/proprietary/libmmgsdilib.so:system/lib/libmmgsdilib.so \
