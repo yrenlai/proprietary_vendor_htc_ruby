@@ -40,15 +40,16 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/qcks:system/bin/qcks \
     vendor/htc/ruby/proprietary/qcks:root/system/bin/qcks \
     vendor/htc/ruby/proprietary/qmuxd:system/bin/qmuxd \
-    vendor/htc/ruby/proprietary/qemud:system/bin/qemud \
-    vendor/htc/ruby/proprietary/qemud-props:system/bin/qemu-props \
+    vendor/htc/ruby/proprietary/netmgrd:system/bin/netmgrd \
     vendor/htc/ruby/proprietary/ramdump-9K.sh:system/bin/ramdump-9K.sh \
     vendor/htc/ruby/proprietary/ramdump2sd-9K.sh:system/bin/ramdump2sd-9K.sh \
     vendor/htc/ruby/proprietary/rmt_storage:system/bin/rmt_storage \
     vendor/htc/ruby/proprietary/snd3254:system/bin/snd3254 \
     vendor/htc/ruby/proprietary/thermald:system/bin/thermald \
     vendor/htc/ruby/proprietary/uimqc:system/bin/uimqc \
-    vendor/htc/ruby/proprietary/zchgd:system/bin/zchgd
+    vendor/htc/ruby/proprietary/zchgd:system/bin/zchgd \
+    vendor/htc/ruby/proprietary/load-modem.sh:system/bin/load-modem.sh \
+    vendor/htc/ruby/proprietary/qmiproxy:system/bin/qmiproxy 
 #    vendor/htc/ruby/proprietary/DxDrmServerIpc:system/bin/DxDrmServerIpc \
 #    vendor/htc/ruby/proprietary/htcfs:system/bin/htcfs \
 #    vendor/htc/ruby/proprietary/calibrator:system/bin/calibrator \
@@ -56,11 +57,11 @@ PRODUCT_COPY_FILES += \
 #    vendor/htc/ruby/proprietary/hostapd:system/bin/hostapd \
 #    vendor/htc/ruby/proprietary/wpa_cli:system/bin/wpa_cli \
 #    vendor/htc/ruby/proprietary/wpa_supplicant:system/bin/wpa_supplicant \
-#    vendor/htc/ruby/proprietary/qmiproxy:system/bin/qmiproxy \
+#
 #    vendor/htc/ruby/proprietary/ks:system/bin/ks \
 #    vendor/htc/ruby/proprietary/ks:root/system/bin/ks \
 #    vendor/htc/ruby/proprietary/rild:system/bin/rild \
-#    vendor/htc/ruby/proprietary/load-modem.sh:system/bin/load-modem.sh \
+#
 
 # Modem
 PRODUCT_COPY_FILES += \
@@ -246,12 +247,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/htc/ruby/proprietary/libqmi.so:system/lib/libqmi.so \
     vendor/htc/ruby/proprietary/libqmiservices.so:system/lib/libqmiservices.so \
-    vendor/htc/ruby/proprietary/rild:system/bin/rild \
     vendor/htc/ruby/proprietary/libdsprofile.so:system/lib/libdsprofile.so \
     vendor/htc/ruby/proprietary/libdss.so:system/lib/libdss.so \
     vendor/htc/ruby/proprietary/libdssock.so:system/lib/libdssock.so \
-    vendor/htc/ruby/proprietary/libril_status.so:system/lib/libril_status.so \
-    vendor/htc/ruby/proprietary/libreference_ril.so:system/lib/libreference_ril.so \
 
 # temp
 PRODUCT_COPY_FILES += \
