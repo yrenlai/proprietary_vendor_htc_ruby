@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/bin/qmiproxy:system/bin/qmiproxy \
   vendor/htc/ruby/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/ruby/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-  vendor/htc/ruby/proprietary/bin/rild:system/bin/rild \
   vendor/htc/ruby/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/ruby/proprietary/bin/uimqc:system/bin/uimqc \
   vendor/htc/ruby/proprietary/bin/zchgd:system/bin/zchgd \
@@ -94,8 +93,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
   vendor/htc/ruby/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/ruby/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-  vendor/htc/ruby/proprietary/lib/libreference-ril.so:/system/lib/libreference-ril.so \
-  vendor/htc/ruby/proprietary/lib/libril_status.so:/system/lib/libril_status.so \
   vendor/htc/ruby/proprietary/lib/hw/sensors.ruby.so:system/lib/hw/sensors.ruby.so \
   vendor/htc/ruby/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/ruby/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
