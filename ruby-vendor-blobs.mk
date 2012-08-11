@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/ruby/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
-  vendor/htc/ruby/proprietary/bin/qcks:root/system/bin/qcks \
   vendor/htc/ruby/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/ruby/proprietary/etc/vpimg:system/etc/vpimg \
   vendor/htc/ruby/proprietary/bin/akmd:system/bin/akmd \
@@ -32,6 +31,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/bin/ewtzmud:system/bin/ewtzmud \
   vendor/htc/ruby/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/ruby/proprietary/bin/ipd:system/bin/ipd \
+  vendor/htc/ruby/proprietary/bin/ks:system/bin/ks \
   vendor/htc/ruby/proprietary/bin/lsc_camera:system/bin/lsc_camera \
   vendor/htc/ruby/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/ruby/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -80,17 +80,20 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/ruby/proprietary/lib/libidl.so:system/lib/libidl.so \
   vendor/htc/ruby/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-  vendor/htc/ruby/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
   vendor/htc/ruby/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
   vendor/htc/ruby/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/ruby/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
-  vendor/htc/ruby/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-  vendor/htc/ruby/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-  vendor/htc/ruby/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-  vendor/htc/ruby/proprietary/lib/libqueue.so:system/lib/libqueue.so \
   vendor/htc/ruby/proprietary/lib/hw/nfc.ruby.so:system/lib/hw/nfc.ruby.so \
   vendor/htc/ruby/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+  vendor/htc/ruby/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
+  vendor/htc/ruby/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+  vendor/htc/ruby/proprietary/lib/libnv.so:system/lib/libnv.so \
   vendor/htc/ruby/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+  vendor/htc/ruby/proprietary/lib/libqdp.so:system/lib/libqdp.so \
+  vendor/htc/ruby/proprietary/lib/libqmi.so:system/lib/libqmi.so \
+  vendor/htc/ruby/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+  vendor/htc/ruby/proprietary/lib/libqueue.so:system/lib/libqueue.so \
+  vendor/htc/ruby/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/ruby/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/ruby/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
   vendor/htc/ruby/proprietary/lib/hw/sensors.ruby.so:system/lib/hw/sensors.ruby.so \
