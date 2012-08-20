@@ -77,7 +77,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
   vendor/htc/ruby/proprietary/lib/libdsm.so:system/lib/libdsm.so \
   vendor/htc/ruby/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-  vendor/htc/ruby/lib/proprietary/libGLESv2S3D_adreno200.so:system/lib/libGLESv2S3D_adreno200.so \
+  vendor/htc/ruby/proprietary/lib/libGLESv2S3D_adreno200.so:system/lib/libGLESv2S3D_adreno200.so \
   vendor/htc/ruby/proprietary/lib/libidl.so:system/lib/libidl.so \
   vendor/htc/ruby/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/ruby/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
@@ -102,6 +102,3 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/ruby/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/ruby/proprietary/lib/libv8.so:system/lib/libv8.so
-
-#  vendor/htc/ruby/proprietary/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
-#  vendor/htc/ruby/proprietary/lib/hw/gps.ruby.so:system/lib/hw/gps.ruby.so \
