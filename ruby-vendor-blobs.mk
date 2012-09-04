@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/etc/vpimg:system/etc/vpimg \
   vendor/htc/ruby/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/ruby/proprietary/bin/awb_camera:system/bin/awb_camera \
+  vendor/htc/ruby/proprietary/bin/calibrator:system/bin/calibrator \
   vendor/htc/ruby/proprietary/bin/charging:system/bin/charging \
   vendor/htc/ruby/proprietary/bin/ewtzmud:system/bin/ewtzmud \
   vendor/htc/ruby/proprietary/bin/htcbatt:system/bin/htcbatt \
@@ -53,6 +54,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/ruby/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/ruby/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+  vendor/htc/ruby/proprietary/lib/libidl.so:system/lib/libidl.so \
   vendor/htc/ruby/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
   vendor/htc/ruby/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/htc/ruby/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
@@ -69,23 +71,22 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/htc/ruby/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/ruby/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+  vendor/htc/ruby/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
   vendor/htc/ruby/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
   vendor/htc/ruby/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+  vendor/htc/ruby/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+  vendor/htc/ruby/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+  vendor/htc/ruby/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/ruby/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/ruby/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-  vendor/htc/ruby/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-  vendor/htc/ruby/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
   vendor/htc/ruby/proprietary/lib/libdsm.so:system/lib/libdsm.so \
-  vendor/htc/ruby/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-  vendor/htc/ruby/proprietary/lib/libGLESv2S3D_adreno200.so:system/lib/libGLESv2S3D_adreno200.so \
-  vendor/htc/ruby/proprietary/lib/libidl.so:system/lib/libidl.so \
   vendor/htc/ruby/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/ruby/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
-  vendor/htc/ruby/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-  vendor/htc/ruby/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
   vendor/htc/ruby/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
   vendor/htc/ruby/proprietary/lib/hw/nfc.ruby.so:system/lib/hw/nfc.ruby.so \
   vendor/htc/ruby/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+  vendor/htc/ruby/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
+  vendor/htc/ruby/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
   vendor/htc/ruby/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
   vendor/htc/ruby/proprietary/lib/libnv.so:system/lib/libnv.so \
   vendor/htc/ruby/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
